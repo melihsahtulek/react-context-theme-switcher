@@ -1,0 +1,37 @@
+.detail-user {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.detail-user h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+.detail-user .detail-user-info ul li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.detail-user .detail-user-info ul li span {
+  line-height: 1.25;
+}
+
+.detail-user .detail-user-info ul li span:first-of-type {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.detail-user .detail-user-info ul li span:last-of-type {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,41 @@
+.header-content .theme-switch {
+  display: flex;
+  border: 1px solid #efefef;
+  width: 60px;
+  height: 30px;
+  position: relative;
+  border-radius: 18px;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.header-content .theme-switch #theme-switch-input:checked + .ball {
+  transition: all 0.5s;
+  background-color: #185adb;
+  transform: translateX(100%);
+}
+
+.header-content .theme-switch .ball {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #ffc947;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.header-content .theme-switch .icon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .header-content .theme-switch {
+    margin-left: 0;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+}

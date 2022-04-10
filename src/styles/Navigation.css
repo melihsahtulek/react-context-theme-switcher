@@ -1,0 +1,17 @@
+.nav {
+  color: inherit;
+}
+
+.nav .nav-item {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.05rem;
+  padding: 7px 20px;
+  border-radius: 3px;
+  color: inherit;
+}
+
+.nav .active {
+  background-color: #185adb;
+  color: #efefef;
+}
